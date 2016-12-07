@@ -1,0 +1,6 @@
+Spacegray.vim git://github.com/ajh17/Spacegray.vim.git
+jedi-vim https://github.com/davidhalter/jedi-vim.git
+supertab https://github.com/ervandew/supertab.git
+syntastic https://github.com/vim-syntastic/syntastic.git
+vim-unimpaired git://github.com/tpope/vim-unimpaired.git
+vimtex https://github.com/lervag/vimtex.git
