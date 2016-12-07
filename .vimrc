@@ -64,6 +64,12 @@ augroup HardLineWrapsLaTex
     autocmd FileType tex setlocal textwidth=80 spell spelllang=en_us
 augroup END
 
+" HTML
+augroup filetype_html
+   autocmd!
+   autocmd FileType html setlocal textwidth=80
+augroup END
+
 " OCaml
 let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
 execute "set rtp+=" . g:opamshare . "/merlin/vim"
