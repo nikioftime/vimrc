@@ -3,8 +3,8 @@
 #copy vimrc to ~/.vimrc
 echo "Replacing existing .vimrc"
 
-[ -f ~/.vimrc] && rm ~/.vimrc
-mv .vimrc ~/.vimrc
+[ -f ~/.vimrc ] && rm ~/.vimrc
+cp $(dirname $0)/.vimrc ~
 
 echo
 echo "----------------------------------------"
