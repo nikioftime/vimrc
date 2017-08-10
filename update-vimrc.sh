@@ -31,7 +31,7 @@ echo
 
 while read -r NAME REPO; do
    echo "Checking $NAME"
-   if [ ! -d ~/.vim/bundle/Spacegray.vim ]
+   if [ ! -d ~/.vim/bundle/$NAME ]
    then
       echo "$NAME not found. Installing $NAME"
        cd ~/.vim/bundle
